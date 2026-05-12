@@ -15,7 +15,11 @@
       --accent2: #c084fc;
       --border: rgba(255,255,255,.12);
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -26,7 +30,13 @@
       color: var(--text);
       line-height: 1.65;
     }
-    .wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px 80px; }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
     .hero {
       padding: 32px;
       border: 1px solid var(--border);
@@ -34,6 +44,7 @@
       border-radius: 28px;
       box-shadow: 0 24px 80px rgba(0,0,0,.35);
     }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -45,9 +56,29 @@
       font-size: 14px;
       margin-bottom: 18px;
     }
-    h1 { margin: 0 0 12px; font-size: clamp(34px, 5vw, 54px); line-height: 1.05; letter-spacing: -0.04em; }
-    .subtitle { margin: 0; color: var(--muted); font-size: 18px; max-width: 760px; }
-    .meta { margin-top: 20px; display: grid; gap: 6px; color: var(--muted); font-size: 15px; }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 760px;
+    }
+
+    .meta {
+      margin-top: 20px;
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
     main {
       margin-top: 28px;
       padding: 28px 32px;
@@ -56,14 +87,48 @@
       border-radius: 28px;
       box-shadow: 0 20px 70px rgba(0,0,0,.25);
     }
-    h2 { margin-top: 34px; margin-bottom: 10px; font-size: 24px; letter-spacing: -0.02em; }
-    h2:first-child { margin-top: 0; }
-    p, li { color: #e7def5; }
-    .muted { color: var(--muted); }
-    ul { padding-left: 22px; }
-    a { color: #d8b4fe; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code { padding: 2px 6px; border-radius: 8px; background: rgba(255,255,255,.08); color: #fff; }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    p, li {
+      color: #e7def5;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: #d8b4fe;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      padding: 2px 6px;
+      border-radius: 8px;
+      background: rgba(255,255,255,.08);
+      color: #fff;
+    }
+
     .notice {
       margin: 22px 0;
       padding: 18px;
@@ -71,8 +136,20 @@
       border: 1px solid rgba(192,132,252,.35);
       background: rgba(139,92,246,.12);
     }
-    footer { margin-top: 28px; color: var(--muted); text-align: center; font-size: 14px; }
-    @media (max-width: 640px) { .hero, main { padding: 24px 20px; border-radius: 22px; } }
+
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .hero, main {
+        padding: 24px 20px;
+        border-radius: 22px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -83,10 +160,10 @@
       <p class="subtitle">
         This Privacy Policy explains how Demo Recorder Pro, operated by LLC Kaway,
         handles camera, microphone, screen recording, local files, app preferences,
-        and related recording features.
+        advertising, and related recording features.
       </p>
       <div class="meta">
-        <div><strong>Effective date:</strong> January 1, 2026</div>
+        <div><strong>Effective date:</strong> May 12, 2026</div>
         <div><strong>App:</strong> Demo Recorder Pro</div>
         <div><strong>Operator:</strong> LLC Kaway</div>
         <div><strong>Contact:</strong> <a href="mailto:support@demo-recorder-pro.com">support@demo-recorder-pro.com</a></div>
@@ -106,6 +183,12 @@
         content, or teleprompter text to our servers unless a future feature clearly asks for
         your permission.
       </p>
+      <p>
+        The app may show advertisements using Google AdMob. Advertising partners may process
+        certain data such as device identifiers, advertising identifiers, app interactions,
+        diagnostic information, IP address, and general location for advertising, measurement,
+        frequency capping, fraud prevention, and related purposes.
+      </p>
 
       <h2>2. Information the App Accesses or Processes</h2>
 
@@ -116,12 +199,20 @@
         Camera frames may include your face, body, surroundings, and other visual information
         visible to the camera.
       </p>
+      <p>
+        Camera frames used for recording and virtual backgrounds are intended to be processed
+        locally on your device. The app does not intentionally upload your camera recordings
+        or camera frames to our servers.
+      </p>
 
       <h3>2.2 Microphone</h3>
       <p>
         The app uses your microphone to record audio during video demonstrations. If you turn
         the microphone off during recording, the app may write silent audio frames to maintain
         audio/video synchronization.
+      </p>
+      <p>
+        The app does not intentionally upload your microphone recordings to our servers.
       </p>
 
       <h3>2.3 Screen Recording</h3>
@@ -135,6 +226,9 @@
         <strong>Important:</strong> You should avoid displaying sensitive information while
         recording your screen.
       </div>
+      <p>
+        The app does not intentionally upload your screen recordings to our servers.
+      </p>
 
       <h3>2.4 Files Created by the App</h3>
       <p>The app may create and store locally on your device:</p>
@@ -160,8 +254,50 @@
         <li>whether you accepted this Privacy Policy.</li>
       </ul>
 
-      <h2>3. How We Use Information</h2>
-      <p>We use the accessed information only to provide the app's recording features, including:</p>
+      <h2>3. Advertising and Google AdMob</h2>
+      <p>
+        Demo Recorder Pro may display advertisements using Google AdMob.
+      </p>
+      <p>
+        Advertisements may be shown when the app is opened and after a recording has been
+        stopped and successfully saved. We do not intentionally show advertisements during
+        active recording, screen capture, camera-to-screen switching, or on top of recording
+        controls.
+      </p>
+      <p>
+        Google AdMob and related Google services may collect or process certain data for
+        advertising, analytics, fraud prevention, security, frequency capping, and measurement.
+        This may include:
+      </p>
+      <ul>
+        <li>device identifiers;</li>
+        <li>advertising ID;</li>
+        <li>IP address;</li>
+        <li>general or approximate location derived from device or network information;</li>
+        <li>app interactions;</li>
+        <li>ad views and ad interactions;</li>
+        <li>diagnostic and performance information.</li>
+      </ul>
+      <p>
+        Depending on your region, the app may show a consent form provided by Google User
+        Messaging Platform before personalized advertising or related processing is used.
+      </p>
+      <p>
+        You can learn more about how Google uses information from apps and sites that use its
+        services here:
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
+          https://policies.google.com/technologies/partner-sites
+        </a>
+      </p>
+      <p>
+        You can learn more about Google's privacy practices here:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          https://policies.google.com/privacy
+        </a>
+      </p>
+
+      <h2>4. How We Use Information</h2>
+      <p>We use information accessed or processed by the app to provide the app's features, including:</p>
       <ul>
         <li>recording camera video;</li>
         <li>recording screen content;</li>
@@ -172,32 +308,50 @@
         <li>showing teleprompter text;</li>
         <li>adding recording markers;</li>
         <li>running sync tests and diagnostics;</li>
-        <li>saving your preferences.</li>
+        <li>saving your preferences;</li>
+        <li>displaying advertisements;</li>
+        <li>preventing fraud and abuse related to advertising;</li>
+        <li>measuring advertising performance.</li>
       </ul>
 
-      <h2>4. Data Sharing</h2>
+      <h2>5. Data Sharing</h2>
       <p>
-        We do not sell your personal data. We do not share your videos, audio, screen recordings,
-        camera frames, or teleprompter text with third parties unless:
+        We do not sell your personal data.
+      </p>
+      <p>
+        We do not share your videos, audio, screen recordings, camera frames, or teleprompter
+        text with third parties unless:
       </p>
       <ul>
         <li>you choose to share exported files yourself;</li>
         <li>sharing is required by law;</li>
         <li>a future feature clearly asks for your permission before uploading or sharing data.</li>
       </ul>
-
-      <h2>5. Third-Party Services</h2>
       <p>
-        The app may use third-party libraries to provide technical functionality. For example,
-        the app may use on-device machine learning technology for virtual background or selfie
-        segmentation. These features are intended to process camera frames locally on the device.
-      </p>
-      <p>
-        If a future version uses cloud processing, analytics, advertising, accounts, or remote
-        uploads, we will update this Privacy Policy and request appropriate consent where required.
+        Advertising data may be processed by Google AdMob and related Google services as described
+        in this Privacy Policy and Google's own privacy documentation.
       </p>
 
-      <h2>6. Storage and Retention</h2>
+      <h2>6. Third-Party Services</h2>
+      <p>
+        The app may use third-party libraries to provide technical functionality.
+      </p>
+      <p>
+        For example, the app may use on-device machine learning technology for virtual background
+        or selfie segmentation. These features are intended to process camera frames locally on
+        the device.
+      </p>
+      <p>
+        The app may also use Google AdMob and Google User Messaging Platform for advertisements
+        and consent management.
+      </p>
+      <p>
+        If a future version uses cloud processing, accounts, remote uploads, or additional
+        analytics services, we will update this Privacy Policy and request appropriate consent
+        where required.
+      </p>
+
+      <h2>7. Storage and Retention</h2>
       <p>
         Recorded videos and related files remain on your device until you delete them. The app
         does not automatically delete your recordings unless you choose to delete them or your
@@ -207,8 +361,12 @@
         Local settings remain on your device until you change them, clear the app's data, or
         uninstall the app.
       </p>
+      <p>
+        Advertising-related data may be retained by Google or advertising partners according to
+        their own policies and applicable law.
+      </p>
 
-      <h2>7. Security</h2>
+      <h2>8. Security</h2>
       <p>
         We use reasonable technical measures to protect data processed by the app. However, you
         are responsible for keeping your device secure and controlling access to your recorded
@@ -219,7 +377,7 @@
         before and during recording.
       </p>
 
-      <h2>8. Permissions</h2>
+      <h2>9. Permissions</h2>
       <p>The app may request the following Android permissions:</p>
       <ul>
         <li><strong>Camera:</strong> used to record front camera video and show camera preview.</li>
@@ -228,9 +386,10 @@
         <li><strong>Notifications:</strong> used to show the required foreground service notification while recording.</li>
         <li><strong>Overlay / Display Over Other Apps:</strong> used to show recording controls, sidebar, and camera bubble while screen recording.</li>
         <li><strong>Foreground Service Permissions:</strong> used to keep recording active while the app records camera, microphone, or screen content.</li>
+        <li><strong>Advertising ID:</strong> used by advertising SDKs such as Google AdMob for advertising, measurement, fraud prevention, and related purposes.</li>
       </ul>
 
-      <h2>9. Important Screen Recording Notice</h2>
+      <h2>10. Important Screen Recording Notice</h2>
       <p>
         When screen recording is enabled, the app may capture any visible content on your screen.
         This may include personal messages, passwords if visible, account information, emails,
@@ -241,22 +400,21 @@
         choosing what appears on your screen while recording.
       </p>
 
-      <h2>10. Children's Privacy</h2>
+      <h2>11. Children's Privacy</h2>
       <p>
         Demo Recorder Pro is not intended for children under the age required by applicable law.
         We do not knowingly collect personal data from children. If you believe that a child has
         provided personal information through the app, please contact us.
       </p>
 
-      <h2>11. International Users</h2>
+      <h2>12. International Users</h2>
       <p>
-        If you use the app outside your country of residence, your data remains primarily on your
-        device. If future versions introduce cloud services, analytics, or account features, we
-        will update this Privacy Policy and provide additional information about international
-        data transfers where required.
+        If you use the app outside your country of residence, your data may be processed according
+        to applicable laws and the policies of service providers used by the app, including Google
+        services used for advertising and consent management.
       </p>
 
-      <h2>12. Your Choices</h2>
+      <h2>13. Your Choices</h2>
       <p>You can:</p>
       <ul>
         <li>deny camera permission;</li>
@@ -266,12 +424,15 @@
         <li>choose not to start screen recording;</li>
         <li>delete recorded videos from your device;</li>
         <li>clear app data in Android settings;</li>
-        <li>uninstall the app.</li>
+        <li>uninstall the app;</li>
+        <li>manage advertising personalization through your device or Google account settings, where available.</li>
       </ul>
-      <p>Some features may not work without the required permissions.</p>
+      <p>
+        Some features may not work without the required permissions.
+      </p>
 
-      <h2>13. Data Deletion</h2>
-      <p>Because recordings and settings are stored locally on your device, you can delete them by:</p>
+      <h2>14. Data Deletion</h2>
+      <p>Because recordings and local settings are stored locally on your device, you can delete them by:</p>
       <ul>
         <li>deleting video files from <code>Movies/DemoRecorder</code>;</li>
         <li>clearing app data in Android settings;</li>
@@ -281,15 +442,19 @@
         If you contact us about privacy or data deletion, please note that we may not have access
         to files stored only on your device.
       </p>
+      <p>
+        For advertising-related data processed by Google, please refer to Google's privacy controls
+        and policies.
+      </p>
 
-      <h2>14. Changes to This Privacy Policy</h2>
+      <h2>15. Changes to This Privacy Policy</h2>
       <p>
         We may update this Privacy Policy from time to time. When we make changes, we will update
         the "Effective date" above. If changes are significant, we may provide additional notice
         in the app or on this page.
       </p>
 
-      <h2>15. Contact Us</h2>
+      <h2>16. Contact Us</h2>
       <p>If you have questions about this Privacy Policy, please contact us:</p>
       <p>
         <strong>App:</strong> Demo Recorder Pro<br />
